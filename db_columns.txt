@@ -1,0 +1,175 @@
+gui	up_req	up_col	fb_req	fb_col
+	id	Entry		
+	entry name	Entry name		
+	genes	Gene names		
+gene name	genes(PREFERRED)	Gene names  (primary )	SYMBOL	SYMBOL
+	genes(ALTERNATIVE)	Gene names (synonym)		
+	genes(OLN)	Gene names (ordered locus)		
+CG* id	genes(ORF)	Gene names  (ORF )	ANNOTATION_SYMBOL	ANNOTATION_SYMBOL
+	organism	Organism		
+	organism-id	Organism ID		
+	protein names	Protein names		
+	proteome	Proteomes		
+	lineage(ALL)	Taxonomic lineage		
+	virus hosts	Virus hosts		
+	fragment	Fragment		
+	encodedon	Gene encoded by		
+	comment(ALTERNATIVE PRODUCTS)	Alternative products		
+	comment(ERRONEOUS GENE MODEL PREDICTION)	Erroneous gene model prediction		
+	comment(ERRONEOUS INITIATION)	Erroneous initiation		
+	comment(ERRONEOUS TERMINATION)	Erroneous termination		
+	comment(ERRONEOUS TRANSLATION)	Erroneous translation		
+	comment(FRAMESHIFT)	Frameshift		
+	comment(MASS SPECTROMETRY)	Mass spectrometry		
+	comment(POLYMORPHISM)	Polymorphism		
+	comment(RNA EDITING)	RNA editing		
+	comment(SEQUENCE CAUTION)	Sequence caution		
+length	length	Length		
+mass (kDa)	mass	Mass		
+	sequence	Sequence		
+	feature(ALTERNATIVE SEQUENCE)	Alternative sequence		
+	feature(NATURAL VARIANT)	Natural variant		
+	feature(NON ADJACENT RESIDUES)	Non-adjacent residues		
+	feature(NON STANDARD RESIDUE)	Non-standard residue		
+	feature(NON TERMINAL RESIDUE)	Non-terminal residue		
+	feature(SEQUENCE CONFLICT)	Sequence conflict		
+	feature(SEQUENCE UNCERTAINTY)	Sequence uncertainty		
+	version(sequence)	Sequence version		
+	ec	EC number		
+	comment(ABSORPTION)	Absorption		
+	comment(CATALYTIC ACTIVITY)	Catalytic activity		
+	comment(COFACTOR)	Cofactor		
+	comment(ENZYME REGULATION)	Enzyme regulation		
+	comment(FUNCTION)	Function[CC]i		
+	comment(KINETICS)	Kinetics		
+	comment(PATHWAY)	Pathway		
+	comment(REDOX POTENTIAL)	Redox potential		
+	comment(TEMPERATURE DEPENDENCE)	Temperature dependence		
+	comment(PH DEPENDENCE)	pH dependence		
+	feature(ACTIVE SITE)	Active site		
+	feature(BINDING SITE)	Binding site		
+	feature(DNA BINDING)	DNA binding		
+	feature(METAL BINDING)	Metal binding		
+	feature(NP BIND)	Nucleotide binding		
+	feature(SITE)	Site		
+	annotation score	Annotation score		
+	features	Features		
+	comment(CAUTION)	Caution		
+	comment(GENERAL)	Miscellaneous[CC]		
+	keywords	Keywords		
+	context	Matched text		
+	existence	Protein existence		
+	tools	Tools		
+	reviewed	Reviewed		
+	comment(SUBUNIT)	Subunit structure[CC]i		
+	interactor	Interacts with		
+	comment(DEVELOPMENTAL STAGE)	Developmental stage		
+	comment(INDUCTION)	Induction		
+	comment(TISSUE SPECIFICITY)	Tissue specificity		
+	go	Gene ontology (GO)		
+biological process	go(biological process)	Gene ontology (biological process)	GO_BIOLOGICAL_PROCESS	GO_BIOLOGICAL_PROCESS
+molecular function	go(molecular function)	Gene ontology (molecular function)	GO_MOLECULAR_FUNCTION	GO_MOLECULAR_FUNCTION
+cellular component	go(cellular component)	Gene ontology (cellular component)	GO_CELLULAR_COMPONENT	GO_CELLULAR_COMPONENT
+	go-id	Gene ontology IDs		
+	comment(ALLERGEN)	Allergenic properties		
+	comment(BIOTECHNOLOGY)	Biotechnological use		
+	comment(DISRUPTION PHENOTYPE)	Disruption phenotype		
+	comment(DISEASE)	Involvement in disease		
+	comment(PHARMACEUTICAL)	Pharmaceutical use		
+	comment(TOXIC DOSE)	Toxic dose		
+	comment(SUBCELLULAR LOCATION)	Subcellular location[CC]i		
+	feature(INTRAMEMBRANE)	Intramembrane		
+	feature(TOPOLOGICAL DOMAIN)	Topological domain		
+	feature(TRANSMEMBRANE)	Transmembrane		
+	comment(PTM)	Post-translational modification		
+	feature(CHAIN)	Chain		
+	feature(CROSS LINK)	Cross-link		
+	feature(DISULFIDE BOND)	Disulfide bond		
+	feature(GLYCOSYLATION)	Glycosylation		
+	feature(INITIATOR METHIONINE)	Initiator methionine		
+	feature(LIPIDATION)	Lipidation		
+	feature(MODIFIED RESIDUE)	Modified residue		
+	feature(PEPTIDE)	Peptide		
+	feature(PROPEPTIDE)	Propeptide		
+	feature(SIGNAL)	Signal peptide		
+	feature(TRANSIT)	Transit peptide		
+	3d	3D		
+	feature(BETA STRAND)	Beta strand		
+	feature(HELIX)	Helix		
+	feature(TURN)	Turn		
+	citationmapping	Mapped PubMed ID		
+	citation	PubMed ID		
+	created	Date of creation		
+	last-modified	Date of last modification		
+	sequence-modified	Date of last sequence modification		
+	version(entry)	Entry version		
+	comment(DOMAIN)	Domain[CC]		
+	comment(SIMILARITY)	Sequence similarities		
+	families	Protein families		
+	feature(COILED COIL)	Coiled coil		
+	feature(COMPOSITIONAL BIAS)	Compositional bias		
+	feature(DOMAIN EXTENT)	Domain[FT]		
+	feature(MOTIF)	Motif		
+	feature(REGION)	Region		
+	feature(REPEAT)	Repeat		
+	feature(ZINC FINGER)	Zinc finger		
+	lineage(all)	Taxonomic lineage (all)		
+	lineage(SUPERKINGDOM)	Taxonomic lineage (SUPERKINGDOM)		
+	lineage(KINGDOM)	Taxonomic lineage (KINGDOM)		
+	lineage(SUBKINGDOM)	Taxonomic lineage (SUBKINGDOM)		
+	lineage(SUPERPHYLUM)	Taxonomic lineage (SUPERPHYLUM)		
+	lineage(PHYLUM)	Taxonomic lineage (PHYLUM)		
+	lineage(SUBPHYLUM)	Taxonomic lineage (SUBPHYLUM)		
+	lineage(SUPERCLASS)	Taxonomic lineage (SUPERCLASS)		
+	lineage(CLASS)	Taxonomic lineage (CLASS)		
+	lineage(SUBCLASS)	Taxonomic lineage (SUBCLASS)		
+	lineage(INFRACLASS)	Taxonomic lineage (INFRACLASS)		
+	lineage(SUPERORDER)	Taxonomic lineage (SUPERORDER)		
+	lineage(ORDER)	Taxonomic lineage (ORDER)		
+	lineage(SUBORDER)	Taxonomic lineage (SUBORDER)		
+	lineage(INFRAORDER)	Taxonomic lineage (INFRAORDER)		
+	lineage(PARVORDER)	Taxonomic lineage (PARVORDER)		
+	lineage(SUPERFAMILY)	Taxonomic lineage (SUPERFAMILY)		
+	lineage(FAMILY)	Taxonomic lineage (FAMILY)		
+	lineage(SUBFAMILY)	Taxonomic lineage (SUBFAMILY)		
+	lineage(TRIBE)	Taxonomic lineage (TRIBE)		
+	lineage(SUBTRIBE)	Taxonomic lineage (SUBTRIBE)		
+	lineage(GENUS)	Taxonomic lineage (GENUS)		
+	lineage(SUBGENUS)	Taxonomic lineage (SUBGENUS)		
+	lineage(SPECIES GROUP)	Taxonomic lineage (SPECIES GROUP)		
+	lineage(SPECIES SUBGROUP)	Taxonomic lineage (SPECIES SUBGROUP)		
+	lineage(SPECIES)	Taxonomic lineage (SPECIES)		
+	lineage(SUBSPECIES)	Taxonomic lineage (SUBSPECIES)		
+	lineage(VARIETAS)	Taxonomic lineage (VARIETAS)		
+	lineage(FORMA)	Taxonomic lineage (FORMA)		
+	lineage-id(all)	Taxonomic identifier (all)		
+	lineage-id(SUPERKINGDOM)	Taxonomic identifier (SUPERKINGDOM)		
+	lineage-id(KINGDOM)	Taxonomic identifier (KINGDOM)		
+	lineage-id(SUBKINGDOM)	Taxonomic identifier (SUBKINGDOM)		
+	lineage-id(SUPERPHYLUM)	Taxonomic identifier (SUPERPHYLUM)		
+	lineage-id(PHYLUM)	Taxonomic identifier (PHYLUM)		
+	lineage-id(SUBPHYLUM)	Taxonomic identifier (SUBPHYLUM)		
+	lineage-id(SUPERCLASS)	Taxonomic identifier (SUPERCLASS)		
+	lineage-id(CLASS)	Taxonomic identifier (CLASS)		
+	lineage-id(SUBCLASS)	Taxonomic identifier (SUBCLASS)		
+	lineage-id(INFRACLASS)	Taxonomic identifier (INFRACLASS)		
+	lineage-id(SUPERORDER)	Taxonomic identifier (SUPERORDER)		
+	lineage-id(ORDER)	Taxonomic identifier (ORDER)		
+	lineage-id(SUBORDER)	Taxonomic identifier (SUBORDER)		
+	lineage-id(INFRAORDER)	Taxonomic identifier (INFRAORDER)		
+	lineage-id(PARVORDER)	Taxonomic identifier (PARVORDER)		
+	lineage-id(SUPERFAMILY)	Taxonomic identifier (SUPERFAMILY)		
+	lineage-id(FAMILY)	Taxonomic identifier (FAMILY)		
+	lineage-id(SUBFAMILY)	Taxonomic identifier (SUBFAMILY)		
+	lineage-id(TRIBE)	Taxonomic identifier (TRIBE)		
+	lineage-id(SUBTRIBE)	Taxonomic identifier (SUBTRIBE)		
+	lineage-id(GENUS)	Taxonomic identifier (GENUS)		
+	lineage-id(SUBGENUS)	Taxonomic identifier (SUBGENUS)		
+	lineage-id(SPECIES GROUP)	Taxonomic identifier (SPECIES GROUP)		
+	lineage-id(SPECIES SUBGROUP)	Taxonomic identifier (SPECIES SUBGROUP)		
+	lineage-id(SPECIES)	Taxonomic identifier (SPECIES)		
+	lineage-id(SUBSPECIES)	Taxonomic identifier (SUBSPECIES)		
+	lineage-id(VARIETAS)	Taxonomic identifier (VARIETAS)		
+	lineage-id(FORMA)	Taxonomic identifier (FORMA)		
+query		yourlist		#SUBMITTED ID
+interactions			SUMMARY_PHYSICAL_INTERACTIONS	SUMMARY_PHYSICAL_INTERACTIONS

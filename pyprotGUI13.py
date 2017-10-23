@@ -134,7 +134,7 @@ iconpath=os.path.join(workdir,'images/PY-UP2.ico')  #path of the icon
 
 ####### vars for database-associated fields to restrict inaccessible ones #################
 
-accord=pd.read_csv('db_columns.txt',sep='\t')
+accord=pd.read_csv('pyprotlib/db_columns.txt',sep='\t')
 accord=accord[accord['gui'].notnull()]
 fbaccessible=accord['gui'][accord['fb_req'].notnull()].values
 upaccessible=accord['gui'][accord['up_req'].notnull()].values
